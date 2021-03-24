@@ -1,0 +1,14 @@
+.gp-circle {
+    font-weight: 500;
+    font-size: 12px;
+    border:1px solid white;
+    height: 22px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.4rem;
+}

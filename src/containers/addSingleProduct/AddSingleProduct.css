@@ -1,0 +1,32 @@
+.add-single-product-container{
+    height: calc(100% - 64px);
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    display: flex;
+}
+.add-single-products-steps{
+    width: 20%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+.add-single-products-content{
+    width: 60%;
+    padding: 2rem;
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+.add-single-products-description{
+    width: 20%;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.add-single-product-description-title{
+    color: #07A0DA;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+

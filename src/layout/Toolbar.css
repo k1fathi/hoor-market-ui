@@ -1,0 +1,52 @@
+.AvatarMenuItems{
+    position: absolute;
+    top:64px;
+    border-radius: 8px;
+    right: 1rem;
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+.toolbar-profile-item{
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.bottom-indicator-collapse{
+    margin-top: 10px;
+    height: 2px;
+    min-height: 2px;
+    background-color: lightgray;
+    border-radius: 2px;
+    min-width: 3rem;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*.toolbar-profile-item:hover .bottom-indicator-collapse{*/
+/*    margin-top: 10px;*/
+/*    height: 3px;*/
+/*    min-height: 3px;*/
+/*    width: 100%;*/
+/*    background-color: gray;*/
+/*    border-top-right-radius: 10px;*/
+/*    border-top-left-radius: 10px;*/
+/*    min-width: 4rem;*/
+/*}*/
+
+/*.active-navlink .bottom-indicator-collapse{*/
+/*    margin-top: 10px;*/
+/*    height: 3px;*/
+/*    min-height: 3px;*/
+/*    width: 100%;*/
+/*    background-color: gray;*/
+/*    border-top-right-radius: 10px;*/
+/*    border-top-left-radius: 10px;*/
+/*    min-width: 4rem;*/
+/*}*/
+.MuiToolbar-gutters {
+    max-width: 1440px;
+    width: 100%;
+    align-self: center;
+}
