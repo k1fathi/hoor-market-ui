@@ -1,0 +1,65 @@
+{
+  "toolbar": {
+    "title": "Sarente Şablon"
+  },
+  "navbar": {
+    "homepage": "Anasayfa",
+    "employees": "Yöneticiler",
+    "advantage_categories": "Avantaj Kategorileri",
+    "advantages": "Avantajlar",
+    "products_categories": "Ürün Kategorileri",
+    "products": "Ürünler (Puan Harcama)",
+    "orders": "Sipariş Kayıtları (Log)",
+    "activities": "Aktiviteler",
+    "points": "Puanlar (Puan Kazanma)",
+    "answer_sets": "Veri Kümeleri",
+    "survey": "Anketler",
+    "faq": "Sıkça Sorulan Sorular",
+    "log": "Günlük Kayıtlar",
+    "qr-scan": "Aktivite Kayıtları"
+  },
+  "homepage": {
+    "summary": "Özet"
+  },
+  "login": {
+    "title": "T.C. Gençlik ve Spor Bakanlığı",
+    "username": "Kullanıcı Adı",
+    "password": "Şifre",
+    "login": "Giriş Yap",
+    "forgot-password": "Şifremi Unuttum"
+  },
+  "create-survey": {
+    "name": "Anket İsmi",
+    "valid-from": "Başlangıç Tarihi",
+    "valid-to": "Bitiş Tarihi",
+    "question-count": "Soru Sayısı",
+    "questions": "Sorular",
+    "question": "Soru",
+    "question-text": "Soru Metni",
+    "answers": "Cevaplar",
+    "save": "Kaydet",
+    "description": "Açıklama",
+    "create": "Oluştur",
+    "update": "Güncelle",
+    "add-question": "Soru Ekleme"
+  },
+  "employees": {
+    "email": "Email",
+    "create": "Oluştur",
+    "roles": "Roller",
+    "cancel": "İptaş Et",
+    "lastLoginDate": "Son Giriş Tarihi",
+    "status": "Durum"
+  },
+  "common": {
+    "error-default": "Bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.",
+    "create": "Oluştur",
+    "cancel": "İptal",
+    "firstName": "Ad",
+    "lastName": "Soyad",
+    "email": "Email",
+    "update": "Güncelle",
+    "valid-from":"Başlangıç Tarihi",
+    "valid-to":"Bitiş Tarihi"
+  }
+}

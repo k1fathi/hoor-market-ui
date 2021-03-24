@@ -1,0 +1,44 @@
+.expenses-modal-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: solid 2px #848c94;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 14rem;
+    width: 24rem;
+    position: sticky;
+    top: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+.expenses-modal-container:focus {
+    outline:0;
+}
+
+.expenses-modal-title{
+    position: absolute;
+    top: -1px;
+    border-top-left-radius: 12px;
+    background-color: #848c94;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+.expenses-modal-title p{
+    align-self: center;
+}
+
+.expenses-modal-text{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    fontFamily: 'Red Hat Display';
+    color: #848c94;
+}
