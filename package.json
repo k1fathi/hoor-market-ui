@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^6.1.1",
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "4.9.1",
     "@material-ui/lab": "^4.0.0-alpha.57",
@@ -30,19 +31,15 @@
     "react-redux": "^7.2.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^4.0.3",
     "react-select": "^3.1.0",
     "redux": "^4.0.5",
-    "redux-thunk": "^2.3.0",
-    "tailwindcss": "1.2.0",
-    "tailwindcss-dir": "4.0.0"
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "yarn run tailwind && react-scripts start",
-    "build": "yarn run tailwind && yarn run purge-tailwind && cross-env GENERATE_SOURCEMAP=false react-scripts build",
-    "tailwind": "tailwind build ./src/styles/tailwind-config.css -c ./tailwind.config.js -o ./src/styles/tailwind.css",
-    "purge-tailwind": "node ./purge-tailwindcss.js",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -59,5 +56,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.4",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.4"
   }
 }
