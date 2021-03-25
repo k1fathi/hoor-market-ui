@@ -16,7 +16,7 @@ export default function AvatarInfo() {
                     Aras Şüküroğlu
                 </div>
                 <div className="flex justify-end">
-                    <div>5000</div>
+                    <div>2000</div>
                     <div className="gp-circle">GP</div>
                 </div>
             </div>
